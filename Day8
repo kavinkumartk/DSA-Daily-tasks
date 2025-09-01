@@ -1,0 +1,15 @@
+num = int(input("Enter a number: "))
+rev = int(str(num)[::-1])
+if num == rev:
+    print(num, "is a Palindrome")
+else:
+    print(num, "is NOT a Palindrome")
+    
+    1
+import math
+a = int(input())
+b = int(input())
+g = math.gcd(a, b)
+lcm = abs(a*b) // g
+print("GCD:", g)
+print("LCM:", lcm)
